@@ -46,6 +46,9 @@ Além do motor de extração, a API conta com um sistema de controle de acesso r
    ```bash
    pip install "fastapi[standard]" httpx pydantic "passlib[bcrypt]" "python-jose[cryptography]" python-multipart
    pip install bycript == 4.0.1
-3. Rode no terminal:
+4. Rode no terminal:
+5. ```bash
+   python -m database.py
+6. Rode no terminal:
    ```bash
    fastapi dev main.py
