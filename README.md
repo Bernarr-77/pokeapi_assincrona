@@ -44,7 +44,8 @@ Além do motor de extração, a API conta com um sistema de controle de acesso r
 2. Crie e ative um ambiente virtual (`python -m venv venv` e `source venv/bin/activate` ou `venv\Scripts\activate`).
 3. Instale as dependências:
    ```bash
-   pip install fastapi[standart] uvicorn httpx passlib[bcrypt] python-jose pydantic
+   pip install "fastapi[standard]" httpx pydantic "passlib[bcrypt]" "python-jose[cryptography]" python-multipart
+   pip install bycript == 4.0.1
 3. Rode no terminal:
    ```bash
    fastapi dev main.py
